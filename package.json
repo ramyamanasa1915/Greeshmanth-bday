@@ -1,0 +1,14 @@
+{
+  "name": "teddy",
+  "version": "1.0.0",
+  "description": "- Process Video: https://www.youtube.com/watch?v=wAiC310hg3Q - Based on the [tutorial](https://keithclark.co.uk/articles/pure-css-parallax-websites/) by Keith Clark",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}

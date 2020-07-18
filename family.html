@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Happy Birthday Teddy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<style>
+		.slideshow{
+			margin: 0 auto;
+			padding-top: 50px;
+			height: 700px;
+			
+		}
+
+		.content{
+			margin: auto;
+			width: 190px;
+			perspective:1000px;
+			position: relative;
+			padding-top: 80px;
+		}
+		.content-carrousel{
+			width: 100%;
+			position: absolute;
+			float: right;
+			animation: rotar 15s infinite linear;
+			transform-style: preserve-3d;
+		}
+		.content-carrousel:hover{
+			animation-play-state: paused;
+			cursor:pointer;
+		}
+		.content-carrousel figure{
+			width: 100%;
+			height: 120px;
+			border:1px solid #4d444d;
+			overflow: hidden;
+			position: absolute;
+		}
+		.content-carrousel figure:nth-child(1){
+			transform: rotateY(0deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(2){
+			transform: rotateY(40deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(3){
+			transform: rotateY(80deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(4){
+			transform: rotateY(120deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(5){
+			transform: rotateY(160deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(6){
+			transform: rotateY(200deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(7){
+			transform: rotateY(240deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(8){
+			transform: rotateY(280deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(9){
+			transform: rotateY(320deg) translateZ(300px);
+		}
+
+		.shadow{
+			position: absolute;
+			box-shadow: 0px 0px 20px 0px #000;
+			border-radius: 2px;
+		}
+		.content-carrousel img{
+			image-rendering: auto;
+			transition: all 300ms;
+			width: 100%;
+			height: 100%;
+		}
+		.content-carrousel img:hover{
+			transform: scale(1.2);
+			transition: all 300ms;
+		}
+		@keyframes rotar{
+			from{
+				transform: rotateY(0deg);
+			} to{
+				transform: rotateY(360deg);
+			}
+		}
+
+
+
+
+
+
+
+
+	</style>
+</head>
+<body style= "background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/88/76/7857d6bc488b892.jpg)">
+	<section class="slideshow">
+		<div class="content">
+			<div class="content-carrousel">
+				<figure class="shadow"><img src="images fam/11.JPG"></figure>
+				<figure class="shadow"><img src="images fam/amma.jpg"></figure>
+				<figure class="shadow"><img src="images fam/nanna.jpg"></figure>
+				<figure class="shadow"><img src="images fam/22.JPG"></figure>
+				<figure class="shadow"><img src="images fam/33.JPG"></figure>
+				<figure class="shadow"><img src="images fam/44.JPG"></figure>
+				<figure class="shadow"><img src="images fam/55.JPG"></figure>
+				<figure class="shadow"><img src="images fam/66.jpeg"></figure>
+				<figure class="shadow"><img src="images fam/cute.jpg"></figure>
+			</div>
+		</div>
+	</section>
+	<p><h1><center>
+		HAPPY BIRTHDAY DODLA SAI GREESHMANTH REDDY<br>
+		                            -LOVELY FAMILY
+		                            
+
+		                         
+	</center>
+</h1>
+</p>
+	
+
+
+   
+
+</body>
+</html>
